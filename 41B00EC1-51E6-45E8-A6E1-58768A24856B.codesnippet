@@ -3,40 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>YX_initView</string>
+	<string>yx_closeKeyBoard</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame{
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self initSubviews];
-    }
-    return self;
-}
-- (void)initSubviews{
-    
-}
-- (void)layoutSubviews{
-    [super layoutSubviews];
-    CGFloat width = self.frame.size.width;
-    CGFloat height = self.frame.size.height;
-
-}
-- (void)reload{
-    [self initSubviews];
-    [self setNeedsLayout];
-}</string>
+	<string>[[[UIApplication sharedApplication] keyWindow] endEditing:YES];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A7C6CEFD-9250-4526-AD3F-D16887E4A05A</string>
+	<string>41B00EC1-51E6-45E8-A6E1-58768A24856B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>YX_initView</string>
+	<string>yx_closeKeyBoard</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>view的init方法</string>
+	<string>关闭键盘</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
