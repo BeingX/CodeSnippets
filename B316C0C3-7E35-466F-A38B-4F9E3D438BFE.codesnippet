@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yx_UIImageView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImageView *bgImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 64, kScreenW, kScreenW*0.7)];
+    bgImageView.image = [UIImage imageNamed:@"help-bg-icon"];
+    [self.view addSubview:bgImageView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B316C0C3-7E35-466F-A38B-4F9E3D438BFE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>yx_UIImageView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建UIImageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
