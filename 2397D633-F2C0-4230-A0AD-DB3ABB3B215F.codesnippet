@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yx_UITextfield</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>_myTextField = [UITextField new];
+    _myTextField.textColor = [UIColor blackColor];
+    _myTextField.font = TextFont;
+    _myTextField.placeholder = @"您需要什么输入搜索";
+    [self addSubview:_myTextField];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2397D633-F2C0-4230-A0AD-DB3ABB3B215F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>yx_UITextfield</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建UITextfield</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
