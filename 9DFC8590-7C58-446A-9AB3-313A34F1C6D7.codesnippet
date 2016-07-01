@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yx_UIButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> UIButton *nextBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    nextBtn.frame = CGRectMake(0, CGRectGetMaxY(contentView.frame)+20, kScreenW*0.95, kScreenW*0.95*0.22);
+    [nextBtn addTarget:self action:@selector(next) forControlEvents:UIControlEventTouchUpInside];
+    [nextBtn setBackgroundImage:[UIImage imageNamed:@"my-wallet-btn"] forState:UIControlStateNormal];
+    [nextBtn setTitle:@"下一步" forState:UIControlStateNormal];
+    [nextBtn.titleLabel setFont:[UIFont systemFontOfSize:16]];
+    [nextBtn.titleLabel setTextColor:[UIColor whiteColor]];
+    nextBtn.atim_centerX = self.view.atim_centerX;
+    [self.view addSubview:nextBtn];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9DFC8590-7C58-446A-9AB3-313A34F1C6D7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>yx_UIButton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
