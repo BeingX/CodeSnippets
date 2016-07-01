@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yx_UITableViewcell_init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        self.backgroundColor = [UIColor clearColor];
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        [self initSubviews];
+    }
+    return self;
+}
+
+-(void)initSubviews
+{
+    
+}
+
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    CGFloat width = self.contentView.atim_width;
+    CGFloat height = self.contentView.atim_height;
+    CGFloat bottomLineHeight = 4;/**&lt; 底部分割条的高度 */
+    CGFloat topSpace = 20;       /**&lt; 内容到上部的间隙 */
+    CGFloat leftSpace = 20;      /**&lt; 内容到左边的间隙 */
+    
+}
+
+- (void)setCellModel:(NearPeopleCellModel *)cellModel{
+    _cellModel = cellModel;
+    
+}
+
++ (CGFloat)cellHeight {
+    return 80;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7F01E1B3-5063-48EF-BFD7-8B07C3F7BF61</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>yx_UITableViewcell_init</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>自定义TableViewCell时的方法</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
