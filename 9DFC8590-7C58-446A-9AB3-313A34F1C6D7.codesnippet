@@ -15,7 +15,7 @@
     [nextBtn setBackgroundImage:[UIImage imageNamed:@"my-wallet-btn"] forState:UIControlStateNormal];
     [nextBtn setTitle:@"下一步" forState:UIControlStateNormal];
     [nextBtn.titleLabel setFont:[UIFont systemFontOfSize:16]];
-    [nextBtn.titleLabel setTextColor:[UIColor whiteColor]];
+    [_feelVirtualButton setTitleColor:RGBColor(241,180,78) forState:UIControlStateNormal];
     nextBtn.atim_centerX = self.view.atim_centerX;
     [self.view addSubview:nextBtn];
 </string>
