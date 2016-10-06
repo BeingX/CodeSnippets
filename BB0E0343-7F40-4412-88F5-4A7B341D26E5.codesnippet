@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>dispatch_once</string>
+	<string>只执行一次代码块</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>dispatch_once</string>
 	<key>IDECodeSnippetUserSnippet</key>
