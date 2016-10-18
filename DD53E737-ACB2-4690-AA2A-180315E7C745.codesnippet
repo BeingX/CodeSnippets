@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>hru</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,strong) &lt;#TYPE#&gt; *&lt;#anme#&gt;;
-</string>
+	<string>[HRUserBehaviorTracking eventTrackingWithEventId:&lt;##&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>881ACD5B-E56C-495A-9358-87975C18413F</string>
+	<string>DD53E737-ACB2-4690-AA2A-180315E7C745</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>hru</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@strong</string>
+	<string>事件统计次数统计</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
