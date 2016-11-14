@@ -3,24 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>yx_initWithFrame</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic,assign) &lt;#TYPE#&gt; &lt;#anme#&gt;;</string>
+	<string>- (instancetype)initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if (self) {
+
+    }
+    return self;
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B3B06759-E847-4745-98D7-152CDD6D7684</string>
+	<string>764A078D-E119-4F6E-8EE4-83527B5DCD7E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>assign</string>
+	<string>yx_initWithFrame</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@assign</string>
+	<string>initWithFrame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yx_UITableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITableView *)myTableView{
+    _myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, kScreenW, kScreenH-64) style:UITableViewStylePlain];
+    _myTableView.backgroundColor = [UIColor clearColor];
+    
+    _myTableView.delegate=self;
+    _myTableView.dataSource=self;
+    
+    _myTableView.separatorStyle=UITableViewCellSeparatorStyleNone;
+    _myTableView.showsVerticalScrollIndicator=YES;
+       return _myTableView;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4943AF71-21B6-42D6-90F8-C694A5604B05</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>yx_UITableView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建tableView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
