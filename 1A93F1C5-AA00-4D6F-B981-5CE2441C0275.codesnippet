@@ -9,12 +9,12 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,copy) NSString *&lt;##&gt;;
+	<string>@property (nonatomic,copy) NSString *&lt;##&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1A93F1C5-AA00-4D6F-B981-5CE2441C0275</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>copy</string>
 	<key>IDECodeSnippetTitle</key>
