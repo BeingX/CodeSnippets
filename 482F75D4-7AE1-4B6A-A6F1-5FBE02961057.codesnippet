@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yx_interface</string>
+	<string>yx_zs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#类#&gt; ()
-
-@end</string>
+	<string>/* &lt;#注释内容#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>31F73AA9-5FF6-4B5F-A757-3681CF503F1C</string>
+	<string>482F75D4-7AE1-4B6A-A6F1-5FBE02961057</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>yx_interface</string>
+	<string>yx_zs</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>头部分类声明</string>
+	<string>注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
