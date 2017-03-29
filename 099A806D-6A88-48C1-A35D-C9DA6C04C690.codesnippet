@@ -3,38 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>YX_initView</string>
+	<string>yx_warning [undo] yqx</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame{
-    self = [super initWithFrame:frame];
-    if (self) {
-        [self initSubviews];
-    }
-    return self;
-}
-- (void)awakeFromNib{
-    [super awakeFromNib];
-    [self initSubviews];
-}
-- (void)updateConstraints{
-    [super updateConstraints];
-    
-}
-- (void)initSubviews{
-    
-}</string>
+	<string>#warning [undo] yqx</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A7C6CEFD-9250-4526-AD3F-D16887E4A05A</string>
+	<string>099A806D-6A88-48C1-A35D-C9DA6C04C690</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>YX_initView</string>
+	<string>yx_warning [undo] yqx</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>view的init方法</string>
+	<string>#warning [undo] yqx</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
