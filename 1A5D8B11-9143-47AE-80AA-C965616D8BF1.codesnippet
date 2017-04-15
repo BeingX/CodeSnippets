@@ -3,27 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yx_UILabel</string>
+	<string>yx_updatecontraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>_leftLabel = [UILabel new];
-_leftLabel.textColor = ColorHex(@"333333");
-_leftLabel.font = [UIFont systemFontOfSize:15];
-_leftLabel.textAlignment = NSTextAlignmentLeft;</string>
+	<string>- (void)updateConstraints{
+    [super updateConstraints];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CAE6D7AE-8898-47DD-B3FF-711B27C97DD1</string>
+	<string>1A5D8B11-9143-47AE-80AA-C965616D8BF1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>yx_UILabel</string>
+	<string>yx_updatecontraints</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建UILabel </string>
+	<string>view update contraints</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
