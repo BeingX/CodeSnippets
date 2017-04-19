@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>YX_view_init</string>
+	<string>NSArray property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithFrame:(CGRect)frame{
-    self = [super initWithFrame:frame];
-    if (self) {
-        
-    }
-    return self;
-}</string>
+	<string>@property (strong, nonatomic) NSArray *&lt;#array#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D1BC08EA-4B3D-485F-9302-BA6F0575899D</string>
+	<string>5447AF44-A71E-40E2-B76B-A57247EE86DD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>YX_view_init</string>
+	<string>NSArray property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>重写View的initWithFrame</string>
+	<string>属性NSArray</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

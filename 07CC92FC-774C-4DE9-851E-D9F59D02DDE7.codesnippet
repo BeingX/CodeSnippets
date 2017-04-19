@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>YX_view_layoutSubviews</string>
+	<string>UIColor property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)layoutSubviews{
-    [super layoutSubviews];
-}</string>
+	<string>@property (strong, nonatomic) UIColor *&lt;#Color#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5485EDE8-5A13-4138-A80D-E23430C64B26</string>
+	<string>07CC92FC-774C-4DE9-851E-D9F59D02DDE7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>YX_view_layoutSubviews</string>
+	<string>UIColor property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>重写layoutSubviews</string>
+	<string>属性 UIColor</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

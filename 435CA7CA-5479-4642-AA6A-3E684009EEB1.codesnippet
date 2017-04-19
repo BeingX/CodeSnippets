@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yxUIImageView</string>
+	<string>UITableViewdelete</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>_midImageView = [UIImageView new];
-_midImageView.image = [UIImage imageNamed:@"help-bg-icon"];</string>
+	<string>&lt;UITableViewDelegate,UITableViewDataSource&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B316C0C3-7E35-466F-A38B-4F9E3D438BFE</string>
+	<string>435CA7CA-5479-4642-AA6A-3E684009EEB1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>yxUIImageView</string>
+	<string>UITableViewdelete</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建UIImageView</string>
+	<string>遵守UITableView代理声明</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

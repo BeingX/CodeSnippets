@@ -20,12 +20,18 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-
+        [self creatSubView];
     }
     return self;
 }
+- (void)creatSubView{
+    
+}
 - (void)updateConstraints{
     [super updateConstraints];
+}
+- (void)prepareForReuse{
+    [super prepareForReuse];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7F01E1B3-5063-48EF-BFD7-8B07C3F7BF61</string>

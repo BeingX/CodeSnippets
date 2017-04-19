@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@str</string>
+	<string>button property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@strongify(self);</string>
+	<string>@property (strong, nonatomic) UIButton *&lt;#Btn#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>58B09A9C-FEA3-4943-AE06-1E1172AF78EC</string>
+	<string>D84BEF06-6DF5-4358-A43C-945BBBDBA3F2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@str</string>
+	<string>button property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@strongify</string>
+	<string>属性Button</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

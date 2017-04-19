@@ -6,7 +6,8 @@
 	<string>copy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (copy, nonatomic) NSString *&lt;##&gt;;

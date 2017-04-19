@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yx_cellinit</string>
+	<string>NSInteger property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        
-    }
-    return self;
-}</string>
+	<string>@property (assign, nonatomic) NSInteger &lt;#Index#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0A7F401F-1B2E-4A23-AE59-1DE329087FF3</string>
+	<string>4DDA9418-D5D2-44F0-86B9-B24EE1A380B7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>yx_cellinit</string>
+	<string>NSInteger property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cell的初始化</string>
+	<string>属性NSInteger</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
