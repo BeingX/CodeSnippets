@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>UICollectionView delete</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#TYPE#&gt; *&lt;#anme#&gt;;
-</string>
+	<string>&lt;UICollectionViewDataSource,UICollectionViewDelegate&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>881ACD5B-E56C-495A-9358-87975C18413F</string>
+	<string>5A953E48-2C67-4D54-8E0A-516A8D72EB20</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>UICollectionView delete</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性@strong</string>
+	<string>遵守UICollectionView代理声明</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

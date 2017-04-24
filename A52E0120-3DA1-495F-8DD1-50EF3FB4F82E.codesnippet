@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>NSMutableArray property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#TYPE#&gt; *&lt;#anme#&gt;;
-</string>
+	<string>@property (strong, nonatomic) NSMutableArray *imagesArray;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>881ACD5B-E56C-495A-9358-87975C18413F</string>
+	<string>A52E0120-3DA1-495F-8DD1-50EF3FB4F82E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>NSMutableArray property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性@strong</string>
+	<string>属性 NSMutableArray</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

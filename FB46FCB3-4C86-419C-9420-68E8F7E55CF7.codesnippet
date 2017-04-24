@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yx_CollectionViewDataSource</string>
+	<string>yx UICollectionView datasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -17,28 +17,24 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return self.dataArray.count;
+    return 0;
 }
 
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    //已登陆时------有战队标记
-
-    ItemVideoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ItemVideoCell" forIndexPath:indexPath];
-//    cell.backgroundColor = [UIColor redColor];
-    cell.videoModel = [self.dataArray objectAtIndex:indexPath.row];
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"UICollectionViewCell" forIndexPath:indexPath];
+    
     return cell;
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>07EAF5FC-C1EE-4186-B223-4DC037DA105C</string>
+	<string>FB46FCB3-4C86-419C-9420-68E8F7E55CF7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>yx_CollectionViewDataSource</string>
+	<string>yx UICollectionView datasource</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UICollectionViewDataSource</string>
+	<string>UICollectionView 数据源方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

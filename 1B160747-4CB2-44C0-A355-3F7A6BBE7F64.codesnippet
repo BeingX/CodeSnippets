@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>UITableView init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#TYPE#&gt; *&lt;#anme#&gt;;
-</string>
+	<string>_mTableView = [UITableView new];
+    _mTableView.delegate = self;
+    _mTableView.dataSource = self;
+    _mTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.view addSubview:_mTableView];
+    
+    [_mTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>881ACD5B-E56C-495A-9358-87975C18413F</string>
+	<string>1B160747-4CB2-44C0-A355-3F7A6BBE7F64</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>UITableView init</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性@strong</string>
+	<string>UITable Init 创建UITableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

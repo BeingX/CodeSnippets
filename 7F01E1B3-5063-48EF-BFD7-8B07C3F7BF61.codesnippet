@@ -10,12 +10,15 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>+ (instancetype)cellWithTableView:(UITableView *)tableView{
-    static NSString *editCellId = @"editCellId";
-    YKAddressEditCell *cell = [tableView dequeueReusableCellWithIdentifier:@"YKAddressEditCell"];
+    static NSString *cellId = @"editCellId";
+    YKAddressEditCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
     if (!cell) {
-        cell = [[YKAddressEditCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:editCellId];
+        cell = [[YKAddressEditCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
     }
     return cell;
+}
+- (void)prepareForReuse{
+    [super prepareForReuse];
 }
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -27,12 +30,7 @@
 - (void)creatSubView{
     
 }
-- (void)updateConstraints{
-    [super updateConstraints];
-}
-- (void)prepareForReuse{
-    [super prepareForReuse];
-}</string>
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7F01E1B3-5063-48EF-BFD7-8B07C3F7BF61</string>
 	<key>IDECodeSnippetLanguage</key>
