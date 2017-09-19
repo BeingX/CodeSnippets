@@ -10,7 +10,8 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) UIButton *&lt;#button#&gt;;</string>
+	<string>///
+@property (strong, nonatomic) UIButton *&lt;#button#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D8EEA7D3-A674-49A9-8F5E-6964305FC247</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -10,7 +10,8 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) UITableView *mTableView;</string>
+	<string>///
+@property (strong, nonatomic) UITableView *mTableView;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B30A8A71-5D29-4863-8467-5E70BAF24950</string>
 	<key>IDECodeSnippetLanguage</key>

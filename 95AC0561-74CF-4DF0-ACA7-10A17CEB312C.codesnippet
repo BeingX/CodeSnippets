@@ -10,7 +10,8 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) UIImageView *&lt;#ImageView#&gt;;</string>
+	<string>///
+@property (strong, nonatomic) UIImageView *&lt;#ImageView#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>95AC0561-74CF-4DF0-ACA7-10A17CEB312C</string>
 	<key>IDECodeSnippetLanguage</key>

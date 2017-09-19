@@ -9,7 +9,8 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) NSMutableArray *imagesArray;</string>
+	<string>///
+@property (strong, nonatomic) NSMutableArray *&lt;##&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A52E0120-3DA1-495F-8DD1-50EF3FB4F82E</string>
 	<key>IDECodeSnippetLanguage</key>

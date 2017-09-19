@@ -3,22 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>UICollectionView property</string>
+	<string>yx init overwrite</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>///
-@property (strong, nonatomic) UICollectionView *mCollectionView;</string>
+	<string>- (instancetype)init{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8C81E7D-9E6A-45A1-947E-A84FD494B61D</string>
+	<string>E8D5EB4E-8136-4BDC-A064-4DEA360FC60A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UICollectionView property</string>
+	<string>yx init overwrite</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性 UICollectionView</string>
+	<string>重写init方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

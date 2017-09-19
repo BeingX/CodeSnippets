@@ -10,7 +10,8 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (assign, nonatomic) BOOL &lt;#isOn#&gt;;</string>
+	<string>///
+@property (assign, nonatomic) BOOL &lt;#isOn#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A132D6A3-1777-4D36-B95C-94758305CE21</string>
 	<key>IDECodeSnippetLanguage</key>

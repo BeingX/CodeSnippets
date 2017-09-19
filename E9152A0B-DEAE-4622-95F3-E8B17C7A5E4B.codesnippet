@@ -9,7 +9,8 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) UITextView *mTextView;</string>
+	<string>///
+@property (strong, nonatomic) UITextView *mTextView;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E9152A0B-DEAE-4622-95F3-E8B17C7A5E4B</string>
 	<key>IDECodeSnippetLanguage</key>

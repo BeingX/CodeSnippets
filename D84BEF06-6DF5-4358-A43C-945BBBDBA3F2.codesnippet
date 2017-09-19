@@ -9,7 +9,8 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) UIButton *&lt;#Btn#&gt;;</string>
+	<string>///
+@property (strong, nonatomic) UIButton *&lt;#Btn#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D84BEF06-6DF5-4358-A43C-945BBBDBA3F2</string>
 	<key>IDECodeSnippetLanguage</key>

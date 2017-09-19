@@ -10,7 +10,8 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) NSString *&lt;#leftText#&gt;;</string>
+	<string>///
+@property (strong, nonatomic) NSString *&lt;#leftText#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0E2B9B44-9094-49CB-9655-EC9059A8E77E</string>
 	<key>IDECodeSnippetLanguage</key>

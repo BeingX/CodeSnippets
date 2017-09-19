@@ -9,7 +9,8 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) UIColor *&lt;#Color#&gt;;</string>
+	<string>///
+@property (strong, nonatomic) UIColor *&lt;#Color#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>07CC92FC-774C-4DE9-851E-D9F59D02DDE7</string>
 	<key>IDECodeSnippetLanguage</key>
