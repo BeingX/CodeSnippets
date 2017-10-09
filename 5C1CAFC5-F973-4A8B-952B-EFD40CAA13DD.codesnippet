@@ -12,7 +12,7 @@
 	<string>UIButton*sureButton = [UIButton buttonWithNormalTitle:@"确定" titleColor:COLOR_HEX(@"fc5260") target:self touchUpInsideAction:@selector(cancel)];
 [sureButton sizeToFit];
 UIBarButtonItem*rightItem = [[UIBarButtonItem alloc]initWithCustomView:sureButton];
-self.navigationItem.rightBarButtonItem= sureButton;
+self.navigationItem.rightBarButtonItem= rightItem;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5C1CAFC5-F973-4A8B-952B-EFD40CAA13DD</string>
