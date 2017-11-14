@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning [undo] yqx</string>
+	<string>#warning [test] [undone]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>099A806D-6A88-48C1-A35D-C9DA6C04C690</string>
 	<key>IDECodeSnippetLanguage</key>
