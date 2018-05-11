@@ -15,19 +15,10 @@
     
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 90;
+    return UITableViewAutomaticDimension;
 }
-
-//取消header的粘性效果
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    if (scrollView == _mTableView) {
-        CGFloat sectionHeaderHeight = 8;
-        if (scrollView.contentOffset.y&lt;=sectionHeaderHeight&amp;&amp;scrollView.contentOffset.y &gt;= 0) {
-            scrollView.contentInset = UIEdgeInsetsMake(-scrollView.contentOffset.y, 0, 0, 0);
-        } else if (scrollView.contentOffset.y &gt;= sectionHeaderHeight) {
-            scrollView.contentInset = UIEdgeInsetsMake(-sectionHeaderHeight, 0, 0, 0);
-        }
-    }
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return UITableViewAutomaticDimension;
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
