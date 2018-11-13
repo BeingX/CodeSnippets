@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yx init overwrite</string>
+	<string>yx-init-overwrite</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>yx init overwrite</string>
+	<string>yx-init-overwrite</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>重写init方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
